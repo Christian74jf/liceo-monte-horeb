@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #004080;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px;
+    background: white;
+    margin: 20px auto;
+    width: 85%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h2 {
+    color: #004080;
+}
+
+.imagen-aniversario {
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.galeria img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.noticia {
+    margin-bottom: 20px;
+}
+
+.contacto form input, 
+.contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background: #00264d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
